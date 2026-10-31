@@ -7,3 +7,4 @@ Stories, echoes, and ripples from the digital deep.
 ## 目录
 
 - [死水微澜](stories/死水微澜.md)
+- [雾散之日](stories/雾散之日.md)
