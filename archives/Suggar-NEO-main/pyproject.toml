@@ -1,0 +1,81 @@
+[project]
+name = "Suggar-NEO"
+version = "0.1.0"
+description = "猫猫欸！很可爱不是嘛？"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "aiomysql>=0.2.0",
+    "amrita[full]==1.1.4",
+    "chardet>=5.2.0",
+    "dotenv>=0.9.9",
+    "extensions>=0.4",
+    "jieba>=0.42.1",
+    "nonebot-adapter-onebot>=2.4.6",
+    "nonebot-plugin-htmlrender>=0.6.6",
+    "nonebot-plugin-localstore>=0.7.4",
+    "nonebot-plugin-orm[default]>=0.8.1",
+    "nonebot-plugin-value>=0.1.6",
+    "nonebot2[fastapi]>=2.4.2",
+    "openai>=1.95.0",
+    "pillow>=11.3.0",
+    "pip>=25.1.1",
+    "psutil>=7.0.0",
+    "pytz>=2025.2",
+    "stubs>=1.0.0",
+    "tomli-w>=1.2.0",
+    "typing>=3.10.0.0",
+]
+
+[tool.nonebot]
+adapters = [
+    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" },
+]
+plugins = [
+    "nonebot_plugin_orm",
+    "nonebot_plugin_localstore",
+    "nonebot_plugin_value",
+]
+plugin_dirs = [
+    # "plugins",
+]
+builtin_plugins = []
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    "F",     # Pyflakes
+    "W",     # pycodestyle warnings
+    "E",     # pycodestyle errors
+    "UP",    # pyupgrade
+    "ASYNC", # flake8-async
+    "C4",    # flake8-comprehensions
+    "T10",   # flake8-debugger
+    "PYI",   # flake8-pyi
+    "PT",    # flake8-pytest-style
+    "Q",     # flake8-quotes
+    "RUF",   # Ruff-specific rules
+    "I",     # isort
+    "PERF",  # pylint-performance
+]
+ignore = [
+    "E402",   # module-import-not-at-top-of-file
+    "E501",   # line-too-long
+    "UP037",  # quoted-annotation
+    "RUF001", # ambiguous-unicode-character-string
+    "RUF002", # ambiguous-unicode-character-docstring
+    "RUF003", # ambiguous-unicode-character-comment
+]
+
+[tool.pyright]
+typeCheckingMode = "basic"
+
+[[tool.uv.index]]
+url = "https://pypi.org/simple"
+default = true
+
+[dependency-groups]
+dev = []
