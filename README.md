@@ -29,6 +29,7 @@ Stories, echoes, and ripples from the digital deep.
 | 🏢 **[城中枯荣](stories/城中枯荣.md)** | *工位格子间的日与夜，光鲜与枯荣交织的当代打工人浮世绘。* | `Markdown` |
 | 📜 **[旧契](stories/旧契.md)** | *诺言还在十八岁，而我们都成了交不出真心的大人。* | `Markdown` |
 | 🍂 **[风过长阶](stories/风过长阶.md)** | *温雅公子不为情所困，风只恰好路过，落叶却耗尽整个秋天。* | `Markdown` |
+| 🍵 **[苟道仙途：花忤传](stories/苟道仙途_花忤传.md)** | *因果不沾，谋定后动。表面萌新小师妹，背地大罗苟长生。* | `Markdown` |
 
 ---
 
