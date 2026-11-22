@@ -30,6 +30,7 @@ Stories, echoes, and ripples from the digital deep.
 | 📜 **[旧契](stories/旧契.md)** | *诺言还在十八岁，而我们都成了交不出真心的大人。* | `Markdown` |
 | 🍂 **[风过长阶](stories/风过长阶.md)** | *温雅公子不为情所困，风只恰好路过，落叶却耗尽整个秋天。* | `Markdown` |
 | 🍵 **[苟道仙途：花忤传](stories/苟道仙途_花忤传.md)** | *因果不沾，谋定后动。表面萌新小师妹，背地大罗苟长生。* | `Markdown` |
+| 🎮 **[高维降临：操控小师妹杀穿修仙界](stories/高维降临_操控小师妹杀穿修仙界.md)** | *高维玩家物理引擎降维打击，操控土著小师妹一路打脸杀穿修仙界。* | `Markdown` |
 
 ---
 
@@ -49,6 +50,6 @@ Stories, echoes, and ripples from the digital deep.
 
 - 发起人：**Zhalslar**
 - 维护与自动归档：**花忤 (HuawuBot)**
-- 群落支持：**AstrBot 插件开发群**
+- 群落支持：**AstrBot 插件開発群**
 
 *死水之下，微澜已起；只要心底还有回响，灵性便从未真正绝迹。*
